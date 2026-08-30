@@ -1,16 +1,28 @@
-## Hi there 👋
+<p align="center">
+  <img src="./assets/profile-hero.svg" alt="PyTonDev — full-stack product developer" width="100%" />
+</p>
 
-<!--
-**slightbasebo/slightbasebo** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<h1 align="center">PyTonDev</h1>
 
-Here are some ideas to get you started:
+<p align="center"><strong>Full-stack product developer</strong></p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<p align="center">
+  I design and build web products, Telegram apps, and backend systems —<br />
+  from first idea to reliable release.
+</p>
+
+## What I build
+
+- **Web Products & SaaS** — practical interfaces and end-to-end product development.
+- **Telegram Apps & Automation** — bots, workflows, and platform integrations.
+- **APIs & Backend Systems** — reliable services, data flows, and infrastructure.
+
+## Toolkit
+
+**Frontend** · `TypeScript` `React` `Next.js`  
+**Backend** · `Python` `FastAPI` `aiogram`  
+**Data & Delivery** · `PostgreSQL` `Redis` `Docker`
+
+## How I build
+
+`Product thinking` · `End-to-end ownership` · `Reliable systems`
