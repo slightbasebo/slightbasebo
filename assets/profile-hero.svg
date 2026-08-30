@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title>PyTonDev product builder banner</title>
+  <desc>A product development loop moving from idea to build, ship, and iterate.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1020"/>
+      <stop offset="0.55" stop-color="#111A33"/>
+      <stop offset="1" stop-color="#071B24"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5B8CFF"/>
+      <stop offset="1" stop-color="#38D9C5"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#9BB1D1" stroke-opacity="0.06"/>
+    </pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+      <path d="M0 0L8 4L0 8Z" fill="#5B8CFF"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#background)"/>
+  <rect width="1200" height="360" rx="28" fill="url(#grid)"/>
+  <circle cx="1080" cy="52" r="150" fill="#38D9C5" opacity="0.08" filter="url(#glow)"/>
+  <circle cx="640" cy="330" r="180" fill="#5B8CFF" opacity="0.09" filter="url(#glow)"/>
+
+  <g font-family="ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+    <text x="72" y="128" fill="#F4F7FF" font-size="66" font-weight="750" letter-spacing="-2">PYTONDEV</text>
+    <rect x="72" y="154" width="92" height="4" rx="2" fill="url(#accent)"/>
+    <text x="72" y="202" fill="#AFC0DD" font-size="20" font-weight="600" letter-spacing="2.4">FULL-STACK PRODUCT DEVELOPER</text>
+    <text x="72" y="250" fill="#7F93B3" font-size="16" font-weight="500">FROM IDEA TO RELIABLE RELEASE</text>
+
+    <g fill="none" stroke="#5B8CFF" stroke-width="2" stroke-opacity="0.68" marker-end="url(#arrow)">
+      <path d="M795 103H914"/>
+      <path d="M997 132V220"/>
+      <path d="M914 257H795"/>
+      <path d="M712 220V132"/>
+    </g>
+
+    <g font-size="13" font-weight="700" text-anchor="middle" letter-spacing="1.5">
+      <g>
+        <rect x="670" y="72" width="126" height="60" rx="15" fill="#111C35" stroke="#4569B5"/>
+        <circle cx="694" cy="102" r="5" fill="#5B8CFF"/>
+        <text x="739" y="107" fill="#DCE6FA">idea</text>
+      </g>
+      <g>
+        <rect x="914" y="72" width="126" height="60" rx="15" fill="#111C35" stroke="#4569B5"/>
+        <circle cx="938" cy="102" r="5" fill="#6DA2FF"/>
+        <text x="983" y="107" fill="#DCE6FA">build</text>
+      </g>
+      <g>
+        <rect x="914" y="220" width="126" height="60" rx="15" fill="#0D2530" stroke="#2E8B82"/>
+        <circle cx="938" cy="250" r="5" fill="#38D9C5"/>
+        <text x="983" y="255" fill="#D9FAF5">ship</text>
+      </g>
+      <g>
+        <rect x="670" y="220" width="126" height="60" rx="15" fill="#0D2530" stroke="#2E8B82"/>
+        <circle cx="694" cy="250" r="5" fill="#53E0CE"/>
+        <text x="739" y="255" fill="#D9FAF5">iterate</text>
+      </g>
+    </g>
+  </g>
+</svg>
